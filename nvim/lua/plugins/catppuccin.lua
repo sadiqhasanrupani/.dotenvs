@@ -1,0 +1,25 @@
+return {
+  "catppuccin/nvim",
+  name = "catppuccin",
+  priority = 1000,
+  config = function()
+    --[[
+    catppuccin flavours =>
+      -- light scheme => catppuccin-latte
+      -- black scheme => catppuccin-frappe, catppuccin-macchiato, catppuccin-mocha
+   --]]
+
+    require("catppuccin").setup({
+      flavour = "macchiato", -- latte, frappe, macchiato, mocha
+      -- transparent_background = true,
+
+      -- integration
+      integration = {
+        neotree = true,
+        telescope = true,
+      },
+    })
+
+    vim.cmd.colorscheme("catppuccin")
+  end,
+}
