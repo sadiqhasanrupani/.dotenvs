@@ -15,13 +15,18 @@ return {
     lazy = false,
     opts = {
       auto_install = true,
-      ensure_installed = { "gopls" }
+      ensure_installed = { "gopls", "tailwindcss" },
     },
   },
 
   -- neo vim lsps setup
   {
     "neovim/nvim-lspconfig",
+    -- opts = {
+    --   servers = {
+    --     tailwindcss = {},
+    --   },
+    -- },
     config = function()
       local capabilities = require("cmp_nvim_lsp").default_capabilities()
       local lspconfig = require("lspconfig")
@@ -35,6 +40,7 @@ return {
       lspconfig.sqlls.setup({ capabilities = capabilities })
       lspconfig.cssls.setup({ capabilities = capabilities })
       lspconfig.gopls.setup({ capabilities = capabilities })
+      lspconfig.tailwindcss.setup({ capabilities = capabilities })
       -- lspconfig.ast_grep.setup({})
       -- lspconfig.zls.setup({})
       -- lspconfig.biome.setup({})
