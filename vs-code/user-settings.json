@@ -1,0 +1,152 @@
+{
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    ".env*": "dotenv"
+  },
+  "editor.tokenColorCustomizations": {
+    "[*Light*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#000"
+          }
+        }
+      ]
+    },
+    "[*Dark*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#fff"
+          }
+        }
+      ]
+    },
+    "[Light]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#000"
+          }
+        }
+      ]
+    },
+    "[Dark]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#fff"
+          }
+        }
+      ]
+    },
+    "textMateRules": []
+  },
+  "tabnine.experimentalAutoImports": true,
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "catppuccin-perfect-monokai",
+  "php.validate.executablePath": "/home/linuxbrew/.linuxbrew/bin/php",
+  "window.zoomLevel": 1,
+  "editor.guides.indentation": true,
+  "editor.guides.bracketPairs": true,
+  "dotenv.enableAutocloaking": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 2,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontFamily": "MesloGL Nerd Font Propo, CaskaydiaCove NF, Hack, SF Mono, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.mouseWheelZoom": true,
+  "cSpell.userWords": [
+    "Chans",
+    "dropdownitem",
+    "FAOTP",
+    "filemanager",
+    "Firstname",
+    "Formik",
+    "hoverwidth",
+    "indc",
+    "labelledby",
+    "lable",
+    "lables",
+    "Lastname",
+    "lucide",
+    "navigations",
+    "nosidebar",
+    "phonecode",
+    "phonenumber",
+    "Pressable",
+    "quilljs",
+    "Rupani",
+    "Sadiq",
+    "Sadiqhasan",
+    "selfemployement",
+    "socialsecurity",
+    "ssabenefits",
+    "Streamdeck",
+    "tanstack",
+    "unemployementinc"
+  ],
+  "workbench.list.smoothScrolling": true,
+  "editor.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "editor.cursorStyle": "block",
+  "editor.cursorSmoothCaretAnimation": "off",
+  "editor.minimap.enabled": false,
+  "editor.cursorSurroundingLines": 2,
+  "editor.cursorWidth": 10,
+  "editor.lineHeight": 1.5,
+  "go.toolsManagement.autoUpdate": true,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "dart.debugExternalPackageLibraries": false,
+  "dart.debugSdkLibraries": false,
+  "explorer.confirmPasteNative": false,
+  "workbench.sideBar.location": "right",
+  "terminal.integrated.cursorWidth": 1.5,
+  "vim.smartRelativeLine": true,
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-d>": false
+  },
+  "vscode-pets.theme": "forest",
+  "vscode-pets.petColor": "akita",
+  "vscode-pets.petSize": "nano",
+  "vscode-pets.throwBallWithMouse": true,
+  "vscode-pets.position": "explorer"
+}

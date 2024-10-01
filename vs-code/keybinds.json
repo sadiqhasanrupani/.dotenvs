@@ -1,0 +1,126 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+oem_3",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
+    "key": "ctrl+oem_3",
+    "command": "-workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  // {
+  //     "key": "ctrl+d",
+  //     "command": "editor.action.copyLinesDownAction",
+  //     "when": "editorTextFocus && !editorReadonly"
+  // },
+  {
+    "key": "shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+c",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "console.log(${TM_SELECTED_TEXT}$1)$2;"
+    }
+  },
+  {
+    "key": "ctrl+a",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "explorer.newFolder"
+  },
+  {
+    "key": "ctrl+shift+alt+n",
+    "command": "workbench.action.newWindow"
+  },
+  {
+    "key": "alt+q",
+    "command": "workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "editor.action.formatDocument"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "workbench.action.quickOpen",
+    "when": "editorTextFocus && vim.mode != 'Insert'"
+  },
+  {
+    "key": "space f z", // If your leader is space
+    "command": "actions.find",
+    "when": "editorTextFocus && vim.mode != 'Insert'"
+  },
+  {
+    "key": "space g f", // or "\\ g f" if your leader is backslash
+    "command": "editor.action.formatDocument",
+    "when": "editorTextFocus && vim.mode != 'Insert'"
+  },
+  {
+    "key": "space f g", // or "\\ f g" if your leader is backslash
+    "command": "workbench.action.findInFiles",
+    "when": "editorTextFocus && vim.mode != 'Insert'"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.focusLeftGroup",
+    "when": "editorTextFocus && vim.active && vim.mode == 'Normal'"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.focusRightGroup",
+    "when": "editorTextFocus && vim.active && vim.mode == 'Normal'"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.focusDownGroup",
+    "when": "editorTextFocus && vim.active && vim.mode == 'Normal'"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.focusUpGroup",
+    "when": "editorTextFocus && vim.active && vim.mode == 'Normal'"
+  },
+  {
+    "key": "space m",
+    "command": "workbench.action.toggleEditorWidths",
+    "when": "editorTextFocus && vim.active && vim.mode == 'Normal'"
+  },
+  {
+    "key": "shift+k",
+    "command": "editor.action.showHover",
+    "when": "editorTextFocus && vim.active && vim.mode == 'Normal'"
+  },
+  {
+    "key": "shift+e f",
+    "command": "workbench.action.showErrorsWarnings",
+    "when": "editorTextFocus && vim.active && vim.mode == 'Normal'"
+  },
+  {
+    "key": "space d",
+    "command": "workbench.action.problems.focus",
+    "when": "editorTextFocus && vim.active && vim.mode == 'Normal'"
+  },
+  {
+    "key": "ctrl+alt+c",
+    "command": "workbench.files.action.collapseExplorerFolders",
+    "when": "explorerViewletVisible"
+  },
+  {
+    "key": "space r n",
+    "command": "editor.action.rename",
+    "when": "editorHasRenameProvider && vim.mode == 'Normal'"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "editorTextFocus && vim.mode == 'Normal'"
+  }
+]
