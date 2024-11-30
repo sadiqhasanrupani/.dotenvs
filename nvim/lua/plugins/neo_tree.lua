@@ -22,7 +22,8 @@ return {
       },
     })
 
-    vim.keymap.set("n", "<C-n>", ":Neotree toggle reveal right<CR>", {})
+    -- vim.keymap.set("n", "<C-n>", ":Neotree toggle reveal right<CR>", {})
+    vim.keymap.set("n", "<C-n>", ":Neotree toggle reveal left<CR>", {})
     vim.keymap.set("n", "<leader>e", ":Neotree focus<CR>", {})
   end,
 }
