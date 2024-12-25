@@ -20,8 +20,10 @@ return {
 
       -- keymaps
       vim.keymap.set("n", "<leader>hq", ":lua require('harpoon.ui').toggle_quick_menu()<CR>", {})
+
       -- add files into harpoon
       vim.keymap.set("n", "<leader>a", ":lua require('harpoon.mark').add_file()<CR>", {})
+
       -- remove a file from harpoon
       vim.keymap.set("n", "<leader>q", ":lua require('harpoon.mark').rm_file()<CR>", {})
 
